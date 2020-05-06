@@ -1,0 +1,2 @@
+# jsProjects
+JavaScript Mini Projects.

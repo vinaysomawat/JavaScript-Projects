@@ -1,2 +1,3 @@
 # jsProjects
 JavaScript Mini Projects.
+

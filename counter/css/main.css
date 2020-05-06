@@ -1,0 +1,21 @@
+h1,p{
+    text-align: center;
+}
+
+#demo {
+    font-size: 80px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+button{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

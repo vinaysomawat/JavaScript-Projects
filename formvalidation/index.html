@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>form validation</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="container-heading">
+            <h3>Get started today!</h3>
+        </div>
+      <form class="form" id="form">
+        <div class="form-control" style="float: left">
+          <label for="firstname">First Name</label>
+          <input type="text" name="firstname" id="firstname" />
+          <small>Error Message</small>
+        </div>
+          <div class="form-control" style="float: left">
+          <label for="lastname">Last Name</label>
+          <input type="text" name="lastname" id="lastname" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <small>Error Message</small>
+        </div>
+        <button class="form-submit">
+          Claim your free trial!
+        </button>
+          <p>You are agreeing to our <a href="#">Terms and Services</a></p>
+      </form>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

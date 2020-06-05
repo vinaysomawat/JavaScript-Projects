@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.prev, .next {
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  width: 5%;
+  height: 10%;
+  padding: 350px;
+  margin-top: -150px;
+  color: black;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}

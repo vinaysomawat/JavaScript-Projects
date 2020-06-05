@@ -25,3 +25,10 @@ This Random Quotes project is fairly simple. It calls for you to access the prop
 This project can easily be completed using an array of objects, but John adds a bit of complexity (if you're a beginner) to the project by using a Constructor function.
 
 ![Image](https://github.com/vinaysomawat/jsProjects/blob/master/demoGIFs/testimonialSlider.gif)
+
+### [ImageSlider JavaScript Project](https://github.com/vinaysomawat/jsProjects/tree/master/imageSlider)
+Image URLs are stored into array and automatically slides, clickable arrows can also be use to slide the images.
+
+![Image](https://github.com/vinaysomawat/jsProjects/blob/master/demoGIFs/imageSlider.gif)
+
+

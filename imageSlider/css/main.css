@@ -9,11 +9,11 @@ img {
 }
 
 .prev, .next {
+  cursor: pointer;
   position: absolute;
   text-align: center;
   top: 10%;
   width: 5%;
-  height: 10%;
   padding: 350px;
   margin-top: -150px;
   color: black;
@@ -22,7 +22,12 @@ img {
   user-select: none;
 }
 
+.prev {
+  padding-left: 150px;
+}
+
 .next {
   right: 0;
+  padding-right: 150px;
   border-radius: 3px 0 0 3px;
 }

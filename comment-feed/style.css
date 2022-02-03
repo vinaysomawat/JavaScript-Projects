@@ -1,0 +1,49 @@
+body {
+    padding: 0 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding-right: 2px;
+}
+
+.input-container {
+    padding-bottom: 20px;
+}
+
+.comment-container {
+    background-color: linen;
+    padding: 10px;
+    padding-left: 25px;
+    border-radius: 15px;
+}
+
+.user-text {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.comment-text {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.like-btn {
+    margin-right: 5px;
+}
+
+.like-count {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.nested-container {
+    padding: 10px;
+    padding-left: 10px;
+}

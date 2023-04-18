@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Star rating</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Star rating</h1>
+    <p>To rate, simply hover over the star and click on the one that corresponds to your preference.</p>
+    <div class="star-container">
+        <h3>Rate the experience</h3>
+        <div class="star-body">
+            <span onclick="submitStarRating(1)" onmouseover="hoverStar(1)"><i class="fa fa-star" id="star-one"></i></span>
+            <span onclick="submitStarRating(2)" onmouseover="hoverStar(2)"><i class="fa fa-star" id="star-two"></i></span>
+            <span onclick="submitStarRating(3)" onmouseover="hoverStar(3)"><i class="fa fa-star" id="star-three"></i></span>
+            <span onclick="submitStarRating(4)" onmouseover="hoverStar(4)"><i class="fa fa-star" id="star-four"></i></span>
+            <span onclick="submitStarRating(5)" onmouseover="hoverStar(5)"><i class="fa fa-star" id="star-five"></i></span>
+        </div>
+    </div>
+    <div class="result-star-rating"></div>
+</body>

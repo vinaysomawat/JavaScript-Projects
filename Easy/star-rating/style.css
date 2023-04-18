@@ -1,0 +1,16 @@
+body {
+    padding: 50px;
+}
+
+.star-body span {
+    padding: 5px;
+    border-radius: 1px;
+}
+
+.star-body span i:hover{
+    color: orange;
+}
+
+.result-star-rating {
+    padding-top: 20px;
+}
